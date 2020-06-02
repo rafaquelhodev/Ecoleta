@@ -1,2 +1,2 @@
 # Ecoleta
- Ecommerc for a sustainable recycling solution
+ Ecommerce for a sustainable recycling solution
