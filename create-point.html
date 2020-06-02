@@ -59,14 +59,16 @@
                     .field*2
                 -->
                 <div class="field">
-                    <label for="state">Estado</label>
-                    <select name="uf">
+                    <label for="ufseletor">Estado</label>
+                    <select name="ufseletor">
                         <option value="">Selecione o estado</option>
+                        <!-- <option value="1">Opção o estado</option> -->
                     </select>
+                    <input type="hidden" name="ufseletor">
                 </div>
                 <div class="field"> <!--label+input-->
-                    <label for="city">Cidade</label>
-                    <select name="city" disabled>
+                    <label for="cityselector">Cidade</label>
+                    <select name="cityselector" disabled>
                         <option value="">Selecione a cidade</option>
                     </select>
                 </div>
@@ -77,6 +79,6 @@
         <button type="submit">Cadastrar ponto de coleta</button>
     </form>
 
-    
+    <script src="/scripts/create-point.js"></script>
 </body>
 </html>
