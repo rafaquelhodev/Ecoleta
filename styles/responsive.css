@@ -1,4 +1,5 @@
 @media (max-width: 900px){
+    /* para telas menores que 900px */
     #page-home{
         background-position-x: 70vw;
     }
@@ -19,9 +20,18 @@
     #page-home main {
         align-items: center;
     }
+
+    #page-search-results main .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results main .cards img{
+        height:200px;
+    }
 }
 
 @media (min-width: 1700px){
+    /* para telas maiores que 900px */
     #page-home{
         background-position-x: 40vw;
     }
